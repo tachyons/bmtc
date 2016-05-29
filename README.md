@@ -1,6 +1,8 @@
 # Bmtc
 
-Bangalore Metropolitan Transport Corporation BMTC its Intelligent Transport System (ITS) , But as of now there is no public api available . This is an reverse engineering approach to solve the issue  
+Bangalore Metropolitan Transport Corporation BMTC recently released its Intelligent Transport System (ITS) , But as of now there is no public api available . This is an reverse engineering approach to solve the issue
+
+API Reference : https://github.com/tachyons/bmtc_api
 
 ## Installation
 
