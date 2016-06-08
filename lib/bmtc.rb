@@ -36,10 +36,10 @@ module Bmtc
   end
 
   def self.trip_fare(_input_options = {})
-    service_type = SERVICE_TYPES[_input_options[:service_type]] || _input_options[:service_type] || "1"
+    service_type = SERVICE_TYPES[_input_options[:service_type]] || _input_options[:service_type] || '1'
     source = _input_options[:source]
     destination = _input_options[:destination]
-    no_adults= (_input_options[:no_adults].to_s || 1).to_s 
+    no_adults = (_input_options[:no_adults].to_s || 1).to_s
     options = {
       'adults' => no_adults,
       'destination' => destination,

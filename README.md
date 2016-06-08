@@ -56,7 +56,13 @@ Get Trip fare
 BMTC.trip_fare(source: "HSR CPWD Quarters",destination:"Shanthinagara TTMC",service_type: :ordinary,no_adults: 1)
 ```
 
-Service types can be oridninary,vajra,vayu_vajra,atal_sarige,nice_service and bengaluru_darshini
+Service types can be either
+* oridninary
+* vajra
+* vayu_vajra
+* atal_sarige
+* nice_service
+* bengaluru_darshini
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
