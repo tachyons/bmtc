@@ -1,5 +1,7 @@
 # Bmtc
 
+[![Build Status](https://travis-ci.org/tachyons/bmtc.svg?branch=master)](https://travis-ci.org/tachyons/bmtc)
+
 Bangalore Metropolitan Transport Corporation BMTC recently released its Intelligent Transport System (ITS) , But as of now there is no public api available . This is an reverse engineering approach to solve the issue
 
 API Reference : https://github.com/tachyons/bmtc_api
