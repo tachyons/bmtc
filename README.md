@@ -59,7 +59,7 @@ BMTC.trip_fare(source: "HSR CPWD Quarters",destination:"Shanthinagara TTMC",serv
 ```
 
 Service types can be either
-* oridninary
+* ordinary
 * vajra
 * vayu_vajra
 * atal_sarige
