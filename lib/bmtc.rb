@@ -1,6 +1,8 @@
 require 'bmtc/version'
 require 'bmtc/bus_stop'
 require 'bmtc/ttmc'
+require 'bmtc/bus'
+require 'bmtc/route'
 require 'httparty'
 BMTC = Bmtc
 module Bmtc

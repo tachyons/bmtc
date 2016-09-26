@@ -24,6 +24,24 @@ Or install it yourself as:
 
 ## Usage
 
+Get live bus status between stations
+
+```ruby
+Bmtc::Bus.buses("Agara Junction","Shanthinagara")
+```
+
+Get all stops in a route
+
+```ruby
+Bmtc::Route.stops_by_route_id(route_id)
+```
+
+Bus time table
+
+```ruby
+Bmtc::Route.time_table("340-A")
+```
+
 Search for bustop
 ```ruby
 Bmtc::BusStop.search <location>

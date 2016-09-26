@@ -23,5 +23,6 @@ module Bmtc
     def self.nearest_stop(latitude, longitude, radius = 2)
       Bmtc.get("/busstops/stopnearby/lat/#{latitude}/lon/#{longitude}/rad/#{radius}")
     end
+
   end
 end
